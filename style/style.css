@@ -1,8 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
 :root {
     --primary: #000
 }
 
 body {
-    color: aqua;
-    background-color: black;
+    font-family: "Inter", sans-serif;
+    color: rgb(152, 156, 156);
+    background-color: rgb(80, 5, 5);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.inter-<uniquifier> {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
